@@ -1,0 +1,53 @@
+body {
+  background-color: #ffffff;
+}
+.services-page-card {
+  text-align: center;
+}
+.services-page-section {
+  text-align: center;
+  margin-top: 40px;
+}
+.start-with-us {
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 59, 166, 1) 0%,
+    rgba(67, 126, 235, 1) 100%
+  );
+  background-color: #437eeb;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  position: relative;
+  z-index: 1;
+  color: #f8f9fa !important;
+}
+.background-image-start-with-us{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+        background-size: contain;
+        background-image: url('../imgs/bg-pattern.png');
+}
+.start-with-us  .row  .left-container  .section-title,.start-with-us  .row  .left-container  .default-para{
+    color: #f8f9fa!important;
+}
+.trans-button{
+    background: transparent!important;
+    background-image: transparent!important;
+    border: 1px solid #f8f9fa;
+    cursor: pointer;
+}
+.services-image{
+    width: 100%;
+    margin-left: 50px;
+}
+@media screen and (max-width:500px){
+    .services-image{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}

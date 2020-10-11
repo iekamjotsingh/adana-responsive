@@ -1,0 +1,125 @@
+.services-single-container .section-title {
+  text-align: center;
+  margin-top: 50px;
+}
+.flex-70 {
+  flex-basis: 0 0 66% !important;
+  max-width: 66% !important;
+}
+.flex-30 {
+  flex-basis: 0 0 30% !important;
+  max-width: 30% !important;
+}
+.start-a-project .row .left-container .section-title {
+  text-align: left;
+  margin-bottom: 30px;
+}
+.main-services-info {
+  margin-top: 70px;
+}
+.start-a-project .row{
+    align-items: center!important;
+    justify-content: center;
+}
+.main-services-info .container .row{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.section-ul .li {
+  margin-bottom: 15px;
+  padding-left: 25px;
+  position: relative;
+  z-index: 1;
+}
+.tick-icon {
+  color: #437eeb;
+  font-size: 18px;
+  margin-right: 7px;
+}
+.services-single-image {
+  margin-top: 40px;
+    width: 100%;
+}
+.section-1-explore {
+  margin-top: 35px;
+}
+.explore-data-services .section-1-explore .section-title {
+  text-align: left;
+}
+.section-1-explore:nth-child(3) {
+  margin-bottom: 30px;
+}
+.toggle-faq-heading {
+  color: black;
+  font-weight: 600;
+}
+.toggle-faq-item {
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  padding: 20px;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+.toggle-faq-para {
+  display: none;
+  transition: none;
+  margin-top: 10px;
+}
+/* sidebar right */
+.sidebar-right-item {
+  padding: 30px;
+  background: #fafafa;
+  padding-top: 0;
+  margin-top: 25px;
+  margin-bottom: 60px;
+	border: 1px solid #e7e7e7;
+}
+.sidebar-title{
+        background: linear-gradient(90deg, rgba(30,85,189,1) 0%, rgba(67,126,235,1) 100%);
+        color: #ffffff;
+        text-align: center;
+        padding: 16px;
+        font-weight: 800;
+        font-size: 20px;
+        position: relative;
+        top: -25px;
+}
+.sidebar-right-item ul li{
+        margin-bottom: 15px;
+}
+.sidebar-right-item ul li a{
+    color: black;
+    font-weight: 600;
+}
+.sidebar-right-item ul li a:hover{
+    color: #437eeb;
+}
+.right-container{
+    margin-top: 60px;
+}
+.contact-us-list li{
+    display: flex;
+    margin-bottom: 15px;
+}
+.icon-contact{
+        position: relative;
+        top: 5px;
+}
+.icon-contact img{
+    width: 40px;
+}
+.info-contact{
+        padding-left: 15px;
+}
+.info-contact span{
+    display: block;
+    font-weight: 700;
+}
+@media screen and (max-width:500px){
+    .main-services-info{
+        margin-top: 40px;
+    }
+    .flex-70,.flex-30 {
+        flex-basis: 0 0 100% !important;
+        max-width: 100% !important;
+      }
+}
